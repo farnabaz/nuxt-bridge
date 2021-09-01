@@ -1,0 +1,10 @@
+{
+  "name": "nitro-static-payload",
+  "scripts": {
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/nitro": "npm:@nuxt/nitro-edge",
+    "nuxt-edge": "^2.16.0-27172816.2ef05373"
+  }
+}
