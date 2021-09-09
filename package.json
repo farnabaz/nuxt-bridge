@@ -1,10 +1,12 @@
 {
   "name": "nitro-static-payload",
   "scripts": {
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "start": "http-server .output/public"
   },
   "dependencies": {
-    "@nuxt/nitro": "npm:@nuxt/nitro-edge",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge",
+    "http-server": "^13.0.1",
     "nuxt-edge": "^2.16.0-27172816.2ef05373"
   }
 }
